@@ -1,0 +1,10 @@
+{
+  "name": "equipmenthunt",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Julia",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0"
+  }
+}

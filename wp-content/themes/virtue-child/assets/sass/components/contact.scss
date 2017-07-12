@@ -1,0 +1,41 @@
+.contact-map {
+  #map {
+    height: 464px;
+    width: 100%;
+  }
+}
+
+.contact-info {
+  h2 {
+    margin-top: 0;
+  }
+  .icon {
+    font-size: 18px;
+    color: #fbbc4c;
+    margin-right: 15px;
+  }
+  .visual-form-builder {
+    padding-top: 10px;
+    border-top: 2px solid #eee;
+    .vfb-legend, #vfb-139,
+    .vfb-item-secret {
+      display: none !important;
+    }
+    ul {
+      margin: 0 !important;
+    }
+
+    li {
+      padding-bottom: 0 !important;
+    }
+    input, textarea {
+      background: #fff;
+      width: 100%;
+      padding: 5px 10px;
+    }
+
+    textarea.vfb-medium {
+      height: 9em;
+    }
+  }
+}

@@ -1,0 +1,269 @@
+@media (max-width: 1200px) {
+  .home .kt-full-slider .flex-caption-case .captiontitle {
+    font-size: 32px;
+  }
+  header #nav-main {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .term-header .header-inner {
+    width: 90%;
+  }
+
+  .page-template-partner .page-header {
+    padding-top: 50px;
+  }
+
+  .slicknav_menu {
+    display: block;
+    position: absolute;
+    top: 60px;
+    z-index: 999;
+    right: 15px;
+    background: none;
+  }
+
+  .slicknav_btn {
+    background-color: #2d5c88;
+  }
+  .slicknav_nav {
+    background: #fff;
+    border-bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+    -webkit-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, .1);
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, .1);
+    li {
+      width: 100%;
+      padding: 0;
+      text-align: left;
+      font-size: 12px;
+      border-bottom: 1px solid #f2f2f2;
+
+      a {
+        display: block;
+        padding: 10px;
+        color: #555;
+        text-align: left;
+        font-size: 12px;
+
+        &:hover {
+          color: #fbbc4c;
+          background: transparent;
+          border-radius: 0;
+        }
+      }
+    }
+
+    .slicknav_row:hover {
+      background: transparent;
+      border-radius: 0;
+      color: #fbbc4c;
+    }
+  }
+
+  .main .section.section-full-width {
+    padding: 40px 0;
+  }
+
+  .home .kt-full-slider .flex-caption {
+    margin: 0 15px;
+    width: auto;
+  }
+
+  .footerclass h3 {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  .footerclass .email i {
+    display: none;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .footerclass {
+    .email i {
+      display: inline;
+    }
+
+    .dropdown {
+      h3 {
+        padding: 0 15px 10px;
+        border-bottom: 2px solid;
+        margin: 0 -15px 15px;
+        text-transform: uppercase;
+        &:before {
+          content: "";
+          width: 0;
+          height: 0;
+          position: absolute;
+          top: 5px;
+          right: 15px;
+          border-width: 9px 9px 0 9px;
+          border-style: solid;
+          border-color: #fff transparent;
+        }
+      }
+
+      .menu li a {
+        max-width: inherit !important;
+      }
+    }
+
+    .widget {
+      margin-top: 10px;
+    }
+  }
+
+  .page-template-partner .section-form .visual-form-builder {
+    margin: 20px 0 0;
+  }
+
+}
+
+@media (max-width: 640px) {
+  header #topbar-search form {
+    margin: 10px 0;
+  }
+
+  .slicknav_menu {
+    top: 0;
+    padding-top: 0;
+    .slicknav_btn {
+      margin-bottom: 8px;
+    }
+  }
+
+  .contentclass .sliderclass {
+    padding: 0;
+  }
+
+  .home .kt-full-slider {
+    .flex-caption-case .captiontitle {
+      font-size: 28px;
+      margin-bottom: 20px;
+      padding: 0;
+    }
+
+    .flex-caption {
+      position: relative;
+    }
+
+    .flex-caption-case .captiontext {
+      padding: 0;
+    }
+  }
+
+  .kt-flex-fullslide {
+    height: 350px !important;
+
+    .flex-caption, .flex-caption-case {
+      height: 100% !important;
+    }
+  }
+
+  .btn-main, .categories_list {
+    margin: 25px auto;
+    width: 300px;
+  }
+
+  .section-full-width .textwidget {
+    padding: 15px 0 0;
+  }
+
+  .title-section {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  .title-section span {
+    padding: 5px 15px;
+  }
+
+  .term-header .header-inner {
+    width: auto;
+    top: 70px;
+    margin: 0 15px;
+  }
+
+  .term-header .header-inner .description {
+    padding: 0 10px;
+  }
+
+  .page-template-partner .page-header h1 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .contact-map #map {
+    height: 350px;
+    margin-bottom: 30px;
+  }
+
+  .header-product .product-info .action-buy h3 {
+    font-size: 24px;
+  }
+
+  #order-form {
+    padding: 25px;
+    fieldset {
+      .button-group {
+        margin-top: 20px;
+      }
+      .btn {
+        display: block;
+        margin: 10px 0;
+        width: 100%;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 380px) {
+  .header-product .product-info .action-buy h3 {
+    font-size: 20px;
+  }
+  .term-header .header-inner h1 {
+    margin: 0 0 15px 0;
+    font-size: 28px;
+  }
+
+  .term-header .header-inner {
+    top: 40px;
+  }
+
+  .home .kt-full-slider {
+    .flex-caption-case .captiontitle {
+      font-size: 22px;
+    }
+  }
+
+  body h3 {
+    line-height: 1.2;
+    font-size: 24px;
+  }
+
+  .page-template-partner .page-header {
+    p {
+      padding: 10px 0;
+    }
+
+    h1 {
+      font-size: 21px;
+
+    }
+  }
+
+  .btn-main, .categories_list {
+    width: 100%;
+  }
+}
